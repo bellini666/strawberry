@@ -5,8 +5,8 @@ argument on all objects that inherit from `relay.Node`. That should've only happ
 for `Query` types.
 
 Strawberry now will not force a `relay.Node` or any type that inherits it to be
-inject the node extension which adds the argument and a resolver for it, meaning that
-this code:
+injected with the node extension which adds the argument and a resolver for it,
+meaning that this code:
 
 ```python
 import strawberry
